@@ -1,0 +1,19 @@
+Bluewolf coding assignment 2 - Tiago Pais - tpaispit@hawk.iit.edu
+
+Please complete the following coding assessment in the language of your choice. Please provide us with both the source code and a link to the hosted solution at your earliest convenience.
+
+1. Create a web page that takes as input a city/location name
+2. This page should call the GeoNames Recent Earthquake WebService (http://www.geonames.org/export/JSON-webservices.html#earthquakesJSON), with a bounding box dictated by the city entered.
+3. Plot the results on a Google Map (http://code.google.com/apis/maps/). Each marker on this map should display details of the earthquake plotted.
+
+Bonus:
+4. Create a list of the top 10 largest earthquakes in the world for the last 12 months. This should be displayed somewhere on the page.
+
+
+Used: HTML, CSS, Javascript
+
+Hosted on http://tiagopaisbluewolf.web44.net/map.html
+
+
+Note: The focus was on functionality instead of design. Although the webpage presented used some design rules and tries to give the focus to the map, the design of its elements can be improved.
+For simplicity and scalability issues all the logic of the web page is implemented in Javascript.
