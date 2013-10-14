@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Tiago Pais Coding Assignment</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="panel">
+      <span id="location"></span><br/>
+      <label>Location: </label>
+      <input id="address" type="textbox"/>
+      <input type="button" value="Search" onclick="updateLocation()"/>
+    </div>
+    <div id="list"></div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
